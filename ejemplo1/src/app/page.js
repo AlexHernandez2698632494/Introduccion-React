@@ -8,8 +8,12 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          DPS104 G01L
+      <p>
+        <a
+            href="http://localhost:3006/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >DPS104 G01L </a>
         </p>
         <div>
           <a
